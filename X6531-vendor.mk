@@ -353,6 +353,26 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6531/proprietary/vendor/etc/sipa/sixth_param_voip.txt.other:$(TARGET_COPY_OUT_VENDOR)/etc/sipa/sixth_param_voip.txt.other \
     vendor/infinix/X6531/proprietary/vendor/etc/sipa/sixth_param_voip.txt.sia:$(TARGET_COPY_OUT_VENDOR)/etc/sipa/sixth_param_voip.txt.sia \
     vendor/infinix/X6531/proprietary/vendor/etc/sipa/sixth_wrapper_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sipa/sixth_wrapper_cfg.xml \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/111e6273.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/3ad48a91.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/7651b327.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/7651b327.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/c542733d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c542733d.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/cec771d5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/cec771d5.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/f336e3d1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/f336e3d1.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/18dc3a8d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/18dc3a8d.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.1 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/2cbfcc3a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/2cbfcc3a.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/399e7759.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/586933d9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/586933d9.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/6146415b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6146415b.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/66272d0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/66272d0d.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/6f1dbe5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6f1dbe5e.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/b5805141.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b5805141.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
+    vendor/infinix/X6531/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
     vendor/infinix/X6531/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/infinix/X6531/proprietary/vendor/etc/smartpa_param/AW_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/AW_DSP.bin \
     vendor/infinix/X6531/proprietary/vendor/etc/smartpa_param/AW_SINWAVE_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/AW_SINWAVE_DSP.bin \
