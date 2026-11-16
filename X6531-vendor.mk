@@ -440,6 +440,9 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6531/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/infinix/X6531/proprietary/vendor/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta
 
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/infinix/X6531/proprietary/vendor/etc/ipsec,$(TARGET_COPY_OUT_VENDOR)/etc/ipsec)
+
 PRODUCT_PACKAGES += \
     AVCSecureVdecCA \
     VP9SecureVdecCA \
@@ -1045,6 +1048,19 @@ PRODUCT_PACKAGES += \
     wmt_loader \
     wpa_cli \
     kpoc_charger 
+
+PRODUCT_PACKAGES += \
+    charon \
+    epdg_wod \
+    libcharon-ss \
+    libcrypto-mdapp \
+    libcurl-md \
+    libhydra \
+    libsimaka \
+    libssl-mdapp \
+    libstrongswan \
+    starter \
+    stroke
 
 PRODUCT_PACKAGES += \
     vendor_bin_hw_android_hardware_media_c2@1_2-mediatek \
