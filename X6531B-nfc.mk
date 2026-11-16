@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
 
 # Helpers used by nfc_nci.thn31nfc.tms.so.
 PRODUCT_COPY_FILES += \
+    vendor/infinix/X6531/proprietary_x6531b/vendor/lib64/7816-3-T1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/7816-3-T1.so \
     vendor/infinix/X6531/proprietary_x6531b/vendor/lib64/tms-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/tms-utils.so \
     vendor/infinix/X6531/proprietary_x6531b/vendor/lib64/tms-cos-dl-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/tms-cos-dl-common.so \
     vendor/infinix/X6531/proprietary_x6531b/vendor/lib64/tms-cos-dl-ree.so:$(TARGET_COPY_OUT_VENDOR)/lib64/tms-cos-dl-ree.so
