@@ -25,3 +25,8 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6531/proprietary_x6531b/vendor/lib64/tms-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/tms-utils.so \
     vendor/infinix/X6531/proprietary_x6531b/vendor/lib64/tms-cos-dl-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/tms-cos-dl-common.so \
     vendor/infinix/X6531/proprietary_x6531b/vendor/lib64/tms-cos-dl-ree.so:$(TARGET_COPY_OUT_VENDOR)/lib64/tms-cos-dl-ree.so
+
+# Stock init rc: registers mtk_secure_element_hal_service so com.android.se can
+# start the SE HAL as a lazy service (SIM1/SIM2 from manifest_x6531b.xml).
+PRODUCT_COPY_FILES += \
+    vendor/infinix/X6531/proprietary_x6531b/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
